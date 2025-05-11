@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Bundle of Joy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Welcome to My Interactive Bundle of Joy😊!</h1>
+
+  <h2>Event Handling</h2>
+  <button id="myButton">Click Me</button>
+  <div id="hoverElement" style="width: 100px; height: 50px; background-color: yellow; margin-top: 10px;">Hover Me</div>
+  <div id="doubleClickElement" style="width: 150px; height: 50px; background-color: orange; margin-top: 10px;">Double Click Me</div>
+  <button id="longPressButton">Long Press Me</button>
+
+  <h2>Interactive Elements</h2>
+  <button id="changeButton">Click Me</button>
+
+  <div class="image-gallery" style="margin-top: 20px;">
+    <img src="image1.jpg" alt="Image 1" class="gallery-image">
+    <img src="image2.jpg" alt="Image 2" class="gallery-image">
+    <img src="image3.jpg" alt="Image 3" class="gallery-image">
+    <button id="prevButton">Previous</button>
+    <button id="nextButton">Next</button>
+  </div>
+
+  <div class="tabs" style="margin-top: 20px;">
+    <div class="tab-buttons">
+      <button class="tab-button active" data-tab="tab1">Tab 1</button>
+      <button class="tab-button" data-tab="tab2">Tab 2</button>
+      <button class="tab-button" data-tab="tab3">Tab 3</button>
+    </div>
+    <div class="tab-contents">
+      <div id="tab1" class="tab-content">Content for Tab 1</div>
+      <div id="tab2" class="tab-content">Content for Tab 2</div>
+      <div id="tab3" class="tab-content">Content for Tab 3</div>
+    </div>
+  </div>
+
+  <div id="animatedElement" style="width: 80px; height: 80px; background-color: pink; margin-top: 20px;">Animate Me</div>
+
+  <h2>Form Validation</h2>
+  <form id="myForm" style="margin-top: 20px;">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name">
+      <div id="nameError" class="error-message"></div>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email">
+      <div id="emailError" class="error-message"></div>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password">
+      <div id="passwordError" class="error-message"></div>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
