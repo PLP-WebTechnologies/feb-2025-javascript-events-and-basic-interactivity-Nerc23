@@ -1,0 +1,34 @@
+.error-message {
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+.gallery-image {
+  display: none; /* Initially hide all images */
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.tabs .tab-contents > div {
+  display: none; /* Initially hide all tab contents */
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.tabs .tab-buttons button {
+  padding: 8px 15px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.tabs .tab-buttons button.active {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+.animate-fade {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0.5;
+}
